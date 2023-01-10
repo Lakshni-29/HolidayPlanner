@@ -1,0 +1,84 @@
+.btn
+{
+	margin: 1px 72px;
+	display: block;
+	padding: 15px 130px;
+	border-radius: 10px;
+	background:#fff;
+	line-height: 1;
+	outline: none;
+	color:black;
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
+.btn:hover,
+.btn:focus
+{
+	background:white;
+	color:white;
+}
+.btn1
+{
+	margin: 30px 72px;
+	display: block;
+	padding: 15px 130px;
+	border-radius: 10px;
+	background:#fff;
+	line-height: 1;
+	outline: none;
+	color:black;
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
+.btn1:hover,
+.btn1:focus
+{
+	background:white;
+	color:black;
+}
+
+.btn2
+{
+	margin: 20px 130px;
+	display: block;
+	padding: 20px 70px;
+	border-radius: 10px;
+	background: skyblue;
+	line-height: 1;
+	outline: none;
+	color:black;
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
+.btn2:hover,
+.btn2:focus
+{
+	background:white;
+	color: black;
+}
+
+.btn3
+{
+	margin: 20px 125px;
+	width: 195px;
+	display: block;
+	padding: 20px 70px;
+	border-radius: 10px;
+	background:skyblue;
+	line-height: 1;
+	outline: none;
+	color:black;
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
+.btn3:hover,
+.btn3:focus
+{
+	background:white;
+    color: black;
+}
+
+::placeholder
+{
+	color: #000;
+}

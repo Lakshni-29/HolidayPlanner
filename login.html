@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<head>
+<title>Login</title>
+<link rel="shortcut icon" href="icons8-world-98.png" type="image/x-icon" sizes="32x32" />
+</head>
+<link rel="stylesheet" href="login.css">
+<style>
+#mydiv
+{
+	margin:10px 185px;
+	font: 30px bold;
+	font-family: inherit;
+	border:none;
+	outline:none;
+	width: 400px;
+	height: 50px;
+}
+/*@keyframes mymove
+{
+	from{margin: 10px 0px;font: 50px bold;font-family: algerian;}
+	to{margin: 10px 550px;font: 50px bold;font-family: algerian;}
+}*/
+</style>
+<body style="background-image:url(images/bg10.jpeg);float:left;background-size:cover;background-attachment:fixed;background-repeat:no-repeat;">
+	<div style="border:1px;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;border: 10px;width: 460px;height: 480px;margin-left: 265px;background-color: whitesmoke;margin-top: 50px;">
+<div id="mydiv"> 
+<p>Login</p>
+</div>
+<form action="connect1.php" method="POST">
+<input type="text" placeholder="Enter Username" id="123" class="btn" style="padding-left:20px; color:black;" name="uname" required=""></input>
+<input type="password" placeholder="Enter password" id="12" class="btn1" style="padding-left:20px;" name="upas" required=""></input>
+<a href="inspirock.com" style="text-decoration:none;font-size:20px;margin-left: 80px;text-decoration: underline;color: deepskyblue;font-family:inherit;position: relative;">Forgot Password?</a>
+<input type="submit" value="&nbsp;Login&nbsp;" class="btn2" ></input>
+</form>
+<p style="font-size: 25px;padding: 0px 335px;margin-left: -26%;color: black;">or</p>
+<button class="btn3" onclick="window.location.href='signup.html'"> Sign up </button>
+
+</div>
+</body>
+</html>

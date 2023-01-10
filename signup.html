@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<head>
+<title>Sign-up</title>
+<link rel="shortcut icon" href="icons8-world-98.png" type="image/x-icon" sizes="32x32" />
+</head>
+<link rel="stylesheet" href="signup.css">
+<style>
+#mydiv
+{
+	margin: 10px 185px;
+	font: 30px bold;
+	font-family: inherit;
+	border:none;
+	outline:none;
+	width: 400px;
+	height: 50px;
+}
+/*@keyframes mymove
+{
+	from{margin: 10px 0px;font: 50px bold;font-family: algerian;}
+	to{margin: 10px 550px;font: 50px bold;font-family: algerian;}
+}*/
+</style>
+<body style="background-image:url(images/bg10.jpeg);float:left;background-size:cover;background-attachment:fixed;background-repeat:no-repeat;">
+	<div style="border:1px;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;border: 10px;width: 460px;height: 480px;margin-left: 265px;background-color: whitesmoke;margin-top: 50px;">
+<div id="mydiv">
+<p>Sign-up</p>
+</div>
+<form action="connect.php" method="POST" >
+<input type="text" placeholder="Enter Username" id="username" class="btn" style="padding-left:20px; color: black;" name="username" required="" s></input>
+<input type="text" placeholder="Enter Phone Number" id="mobile" class="btn3" style="padding-left:20px; color: black;" name="mobile" required=""></input>
+<input type="text" placeholder="Enter Email" id="email" class="btn1" style="padding-left:20px; color: black;" name="email" required="can't be empty"></input>
+<input type="password" placeholder="Enter Password" id="password" class="btn2" style="padding-left:20px; color: black;" name="pasword" required=""></input>
+
+<input type="submit" id="123" value="Signup" class="btn4" onclick="window.location.href='login.html'"></input>
+<style>
+::placeholder
+{
+	color: #000;
+}
+</style>
+</form>
+</div>
+</body>
+</html>
